@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/4151146/sitemap.xsl"?>
+
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,109 +7,102 @@
       xsi:schemaLocation="
             http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- this site is available at github: https://github.com/0810-Software/FNew-HTML/ -->
 <!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
-
+<!-- this site is available at github: https://github.com/0810-Software/FNew-HTML/ -->
   <url>
        <loc>https://fnew-social.net/</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/write/</loc>
-       <lastmod>2019-12-14T14:18:52+00:00</lastmod>
+       <lastmod>2020-03-31T17:39:50+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://fnew-social.net/create/</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <loc>https://fnew-social.net/write/signup/</loc>
+       <lastmod>2020-03-31T17:39:50+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.9500</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/posts/</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/links/</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/desktop-apps/</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/account/marnix0810.html</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/write/post/</loc>
-       <lastmod>2019-12-14T14:18:52+00:00</lastmod>
+       <lastmod>2020-03-31T17:39:50+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/write/bio/</loc>
-       <lastmod>2019-12-14T14:18:52+00:00</lastmod>
+       <lastmod>2020-03-31T17:39:50+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/feeds/</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
-  </url>
-  <url>
-       <loc>https://fnew-social.net/posts/marnix0810_19829_1.html</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/posts/marnix0810-The_first_post_.html</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/Privacy/</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/account/</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/Privacy-document.pdf</loc>
-       <lastmod>2020-02-13T16:10:18+00:00</lastmod>
+       <lastmod>2020-03-31T17:47:16+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.5120</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/account/EhvNr01.html</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.5120</priority>
   </url>
   <url>
        <loc>https://fnew-social.net/account/Viv.html</loc>
-       <lastmod>2020-02-08T11:02:02+00:00</lastmod>
+       <lastmod>2020-03-31T17:43:37+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.5120</priority>
   </url>
 </urlset>
