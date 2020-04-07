@@ -9,5 +9,5 @@ Welcome to our Github repository!
 
 ## Okay, what is FNew?
 
-FNew is a social media site using a 'everyone can see'-policy, which also means no fear for private conversations leaking, etcetera. Everything goes trough me, no automated process.
+FNew is a social media site using a 'everyone can see'-policy, which also means no fear for private conversations leaking, etcetera. Everything goes trough me, no automated process (yet).
 
