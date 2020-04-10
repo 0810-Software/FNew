@@ -5,7 +5,7 @@ Welcome to our Github repository!
 ## What is in this repository?
 
 - The FNew pages, posts and site's HTML code
-- (Future plans) Code that helps me to keep everything on rails. *(actually, there is a new repository for that, [0810-Software/FNew-PHP](https://github.com/0810-Software/FNew-PHP).*)
+- (Future plans) Code that helps me to keep everything on rails. *(actually, we have started to do that, [the alpha branch](https://github.com/0810-Software/FNew/blob/alpha/readme.md).*)
 
 ## Okay, what is FNew?
 
