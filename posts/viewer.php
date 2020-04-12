@@ -85,10 +85,11 @@
         }
     </style>
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="38ae32fa-bcad-4acc-9ea9-ba1a1a03f4f6";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-    <TITLE>FNew - Post:<?php
+    <TITLE><?php
 $postid = $_GET["postid"];
 $posttitlefile = "postindex/" . $postid . "/title.txt";
 $myfile = fopen(($posttitlefile), "r") or die("Unable to load title!");
+echo "FNew - Post:";
 echo fgets($myfile);
 fclose($myfile);
 ?></TITLE>
@@ -102,7 +103,7 @@ fclose($myfile);
           <form action="https://www.google.com/search" method="get" >
             <label>
               Search on FNew
-              <input type="text" name="q" id="q" size="27" autofocus maxlength="255">
+              <input type="text" name="q" id="q" size="27" maxlength="255">
             </label>
             <button class="submit" id="btn" type="submit">
               <img src="https://www.google.com/favicon.ico" alt="Google" width="16"> Search on FNew
@@ -111,6 +112,24 @@ fclose($myfile);
           </form>
         </div><hr>
         <!-- Start of custom menu links -->
+        <p>Options:</p>
+        <form action="/posts/" method="get" >
+          <label>
+            Respond to this post:
+            <input type="text" name="re" id="re" size="27" autofocus maxlength="255">
+          </label>
+        <label>
+          Respond
+          <input type="submit">
+        </label>
+          <input type="hidden" name="postid" value="<?php
+          $postid = $_GET["postid"];
+          echo $postid;
+          ?>">
+        </form>
+        <a href="mailto:FNew-reaction@email.com?subject=Reaction%20to%20marnix0810's%20'The%20First%20Post'%20On%20FNew&body=---%20To%20protect%20the%20writer's%20privacy%2C%20your%20email%20goes%20trough%20FNew-reaction%40email.com%20---%0D%0A%0D%0AYour%20reaction%3F">Reply to this</a>
+        <a href="/posts/">Back to all posts</a>
+        <a href="https://fnew-social.net/posts/"></a>
         <!-- End of custom menu links -->
         <a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/footer_badge.png" alt="Member of The Internet Defense League"/></a>
           </div>
@@ -132,7 +151,13 @@ fclose($myfile);
         }
         </script>
         <!-- Start of body content -->
-
+        <?php
+        $postid = $_GET["postid"];
+        $posttitlefile = "postindex/" . $postid . "/title.txt";
+        $myfile = fopen(($posttitlefile), "r") or die("Unable to load title!");
+        echo fgets($myfile);
+        fclose($myfile);
+        ?>
         <!-- End of body content -->
         <!-- Start of bottombar -->
         <div id="pd_rating_holder_8814144"></div>
