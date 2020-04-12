@@ -113,21 +113,7 @@ fclose($myfile);
         </div><hr>
         <!-- Start of custom menu links -->
         <p>Options:</p>
-        <form action="/posts/" method="get" >
-          <label>
-            Respond to this post:
-            <input type="text" name="re" id="re" size="27" autofocus maxlength="255">
-          </label>
-        <label>
-          Respond
-          <input type="submit">
-        </label>
-          <input type="hidden" name="postid" value="<?php
-          $postid = $_GET["postid"];
-          echo $postid;
-          ?>">
-        </form>
-        <a href="mailto:FNew-reaction@email.com?subject=Reaction%20to%20marnix0810's%20'The%20First%20Post'%20On%20FNew&body=---%20To%20protect%20the%20writer's%20privacy%2C%20your%20email%20goes%20trough%20FNew-reaction%40email.com%20---%0D%0A%0D%0AYour%20reaction%3F">Reply to this</a>
+        <a href="#reply">Reply to this</a>
         <a href="/posts/">Back to all posts</a>
         <a href="https://fnew-social.net/posts/"></a>
         <!-- End of custom menu links -->
@@ -151,13 +137,55 @@ fclose($myfile);
         }
         </script>
         <!-- Start of body content -->
-        <?php
+        <H2><?php
         $postid = $_GET["postid"];
         $posttitlefile = "postindex/" . $postid . "/title.txt";
         $myfile = fopen(($posttitlefile), "r") or die("Unable to load title!");
         echo fgets($myfile);
         fclose($myfile);
-        ?>
+        ?></H2><HR>
+          <?php
+          $postid = $_GET["postid"];
+          $postcontentfile = "postindex/" . $postid . "/content.txt";
+          $myfile = fopen(($postcontentfile), "r") or die("Unable to load post content...");
+          echo fgets($myfile);
+          fclose($myfile);
+          ?><br><hr><button>
+            by <a href="https://fnew-social.net/users.php?user=<?php
+   $postid = $_GET["postid"];
+   $postusernamefile = "postindex/" . $postid . "/username.txt";
+   $myfile = fopen(($postcontentfile), "r") or die("error");
+   echo fgets($myfile);
+   fclose($myfile);
+?>"><?php
+   $postid = $_GET["postid"];
+   $postauthorfile = "postindex/" . $postid . "/author.txt";
+   $myfile = fopen(($postauthorfile), "r") or die("error");
+   echo fgets($myfile);
+   fclose($myfile);
+?></a>, <b>posted on:</b> <?php
+   $postid = $_GET["postid"];
+   $postdatefile = "postindex/" . $postid . "/author.txt";
+   $myfile = fopen(($postdatefile), "r") or die("Unable to load publish date");
+   echo fgets($myfile);
+   fclose($myfile);
+?><b>.</b> <a href="#reply">Reply to this</a>
+          </button>
+<h2 id="reply">Reply to this</h2>
+<form action="/posts/" method="get" >
+  <label>
+    Respond to this post:
+    <input type="text" name="re" id="re" size="27" autofocus maxlength="255">
+  </label>
+<label>
+  Respond
+  <input type="submit">
+</label>
+  <input type="hidden" name="postid" value="<?php
+  $postid = $_GET["postid"];
+  echo $postid;
+  ?>">
+</form>
         <!-- End of body content -->
         <!-- Start of bottombar -->
         <div id="pd_rating_holder_8814144"></div>
