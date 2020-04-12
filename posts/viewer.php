@@ -86,7 +86,9 @@
     </style>
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="38ae32fa-bcad-4acc-9ea9-ba1a1a03f4f6";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     <TITLE>FNew - Post:<?php
-$myfile = fopen("postindex/$_POST["postid"]/title.txt", "r") or die("Unable to load title!");
+$postid = $_GET["postid"];
+$posttitlefile = "postindex/" . $postid . "/title.txt";
+$myfile = fopen(($posttitlefile), "r") or die("Unable to load title!");
 echo fgets($myfile);
 fclose($myfile);
 ?></TITLE>
