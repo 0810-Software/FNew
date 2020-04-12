@@ -154,7 +154,7 @@ fclose($myfile);
             by <a href="https://fnew-social.net/users.php?user=<?php
    $postid = $_GET["postid"];
    $postusernamefile = "postindex/" . $postid . "/username.txt";
-   $myfile = fopen(($postcontentfile), "r") or die("error");
+   $myfile = fopen(($postusernamefile), "r") or die("error");
    echo fgets($myfile);
    fclose($myfile);
 ?>"><?php
@@ -165,22 +165,22 @@ fclose($myfile);
    fclose($myfile);
 ?></a>, <b>posted on:</b> <?php
    $postid = $_GET["postid"];
-   $postdatefile = "postindex/" . $postid . "/author.txt";
+   $postdatefile = "postindex/" . $postid . "/date.txt";
    $myfile = fopen(($postdatefile), "r") or die("Unable to load publish date");
    echo fgets($myfile);
    fclose($myfile);
 ?><b>.</b> <a href="#reply">Reply to this</a>
           </button>
+
+
 <h2 id="reply">Reply to this</h2>
-<form action="/posts/" method="get" >
+<form action="/posts/respond.php" method="get">
   <label>
     Respond to this post:
     <input type="text" name="re" id="re" size="27" autofocus maxlength="255">
-  </label>
-<label>
-  Respond
-  <input type="submit">
-</label>
+  </label><br>
+  <input type="submit" id="submitresponse">
+  <label for="submitresponse">Respond</label>
   <input type="hidden" name="postid" value="<?php
   $postid = $_GET["postid"];
   echo $postid;
@@ -197,30 +197,9 @@ fclose($myfile);
               "permalink" : ""
             };
           </script>
-          <hr>
-          <i>This site is open-source. It is hosted from a Raspberry PI 3 using Apache 2.4.</I><br></br>
-            <div id="linkbar">
-              <button>
-                <a href="https://github.com/0810-Software/FNew/"><img src="https://images.fnew-social.net/GitHub-Mark-32px.png" alt="Go to the Github of FNew" height="32"></a>
-                | <a href="https://gitter.im/FNew_0810-Software/community"><img src="https://images.fnew-social.net/FNew-Gitter32x32.jpg" alt="FNew-comunity@Gitter" height="32"></a>
-                | <a href="mailto:FNew@email.com"><img src="https://images.fnew-social.net/mail.jpg" alt="Mail to FNew's creators" height="32"></a>
-                | <a href="https://software0810.wordpress.com/"><img src="https://software0810.files.wordpress.com/2019/11/cropped-0810software-2.png?w=32" alt="Go to the 0810 Software site@wordpress.com" height="32"></a>
-                | <a href="https://stories0810.wordpress.com/"><img src="https://stories0810.files.wordpress.com/2019/12/wp-1576080917288.jpg?w=32" alt="Go to Stories 0810" height="32"></a>
-              </button>
             </div>
-            <a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/footer_badge.png" alt="Member of The Internet Defense League"/></a><br>
             <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <script type="text/javascript">
-            window._idl = {};
-            _idl.variant = "modal";
-            (function() {
-              var idl = document.createElement('script');
-              idl.async = true;
-              idl.src = 'https://members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
-              document.getElementsByTagName('body')[0].appendChild(idl);
-            })();
-          </script>
-          <p align="left">Please share FNew!</p>
+            <p align="left">Please share FNew!</p>
           <script type="text/javascript" charset="utf-8" src="https://polldaddy.com/js/rating/rating.js"></script>
           <script type="text/javascript" src="https://polldaddy.com/survey.js" charset="UTF-8"></script>
           <script type="text/javascript" charset="utf-8">
@@ -235,3 +214,4 @@ fclose($myfile);
           <noscript><a href="https://poll.fm/10486316">naturalis lectio software: Which project would you EOL first?</a></noscript>
     </CENTER>
   </BODY>
+</HTML>
