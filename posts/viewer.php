@@ -171,16 +171,16 @@ fclose($myfile);
    fclose($myfile);
 ?><b>.</b> <a href="#reply">Reply to this</a>
           </button>
+<h2 id="comments">Replies</h2>
+<hr>
 
-
-<h2 id="reply">Reply to this</h2>
-<form action="/posts/respond.php" method="get">
+<hr>
+<form action="/posts/respond.php" method="get" id="reply">
   <label>
     Respond to this post:
     <input type="text" name="re" id="re" size="27" autofocus maxlength="255">
   </label><br>
-  <input type="submit" id="submitresponse">
-  <label for="submitresponse">Respond</label>
+  <input type="submit" id="submitresponse" value="Respond">
   <input type="hidden" name="postid" value="<?php
   $postid = $_GET["postid"];
   echo $postid;
