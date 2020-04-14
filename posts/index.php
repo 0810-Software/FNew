@@ -98,8 +98,7 @@ function closeNav() {
 <h2>Published posts</h2>
 	<a href="https://groups.google.com/forum/feed/fnew-posts/msgs/rss.xml?num=15" target="_blank">Get a notification over RSS when someone posts something</a>
 <hr>
-<li><a href="https://fnew-social.net/posts/marnix0810_19829_1.html">Marnix0810:FNew has completely moved from Zeronet to the open internet</a></li>
-<li><a href="https://fnew-social.net/posts/marnix0810-The_first_post_.html">Marnix 0810:The first post!</a></li>
+<li><a href="/posts/viewer.php?postid=1980215191">Marnix 0810:The first post!</a></li>
 
     </CENTER></BODY>
     </HTML>
