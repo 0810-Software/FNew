@@ -8,7 +8,7 @@
 <META NAME="author" LANG="en" CONTENT="0810Software / FNew">
 <META NAME="copyright" LANG="en" CONTENT="Copyright (c) 2019 0810 Software">
     <title>FNew - Links</title>
-<link href="https://fnew-social.net/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <style>
@@ -83,17 +83,17 @@ body {
 <div id="searchbox"><form action="https://www.google.com/search" method="get" >
 <input type="text" name="q" id="q" size="27" autofocus maxlength="255">
 <button class="submit" id="btn" type="submit"><img src="https://www.google.com/favicon.ico" alt="Google" width="16"> Search on FNew</button>
-<input type="hidden" name="sitesearch" value="https://fnew-social.net/"></form></div>
+<input type="hidden" name="sitesearch" value="/"></form></div>
 <p>List of pages on FNew that might come in handy:</p>
 	</CENTER>
-<li><a href="https://fnew-social.net/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Home</a></li>
+<li><a href="/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Home</a></li>
 <li><a href="https://gitter.im/FNew_0810-Software/community"><img src="https://images.fnew-social.net/FNew-Gitter.png" height="16"> Go to the Gitter community of FNew</a></li>
-<li><a href="https://fnew-social.net/Privacy/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> The privacy document</a></li>
-<li><a href="https://fnew-social.net/account/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Accounts</a></li>
-<li><a href="https://fnew-social.net/write/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Write...</a></li>
-<li><a href="https://fnew-social.net/write/signup/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Register</a></li>
-<li><a href="https://fnew-social.net/posts/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Read</a></li>
-<li><a href="https://fnew-social.net/desktop-apps/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> The FNew (desktop) apps</a></li>
+<li><a href="/Privacy/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> The privacy document</a></li>
+<li><a href="/account/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Accounts</a></li>
+<li><a href="/write/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Write...</a></li>
+<li><a href="/write/signup/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Register</a></li>
+<li><a href="/posts/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Read</a></li>
+<li><a href="/desktop-apps/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> The FNew (desktop) apps</a></li>
 <li><a href="https://software0810.wordpress.com/"><img src="https://software0810.files.wordpress.com/2019/11/cropped-0810software-2.png?w=32" height="16"> 0810 Software site</a></li>
 <li><a href="https://github.com/0810-Software/FNew-HTML"><img src="https://images.fnew-social.net/GitHub-Mark-32px.png" height="16"> FNew Github</a></li>
 <li><a href="mailto:FNew@email.com"><img src="https://images.fnew-social.net/iconfinder_aiga_mail_134146.png" height="16"> Mail me (Marnix 0810)</a></li>
