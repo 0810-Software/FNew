@@ -8,7 +8,7 @@
 <META NAME="author" LANG="en" CONTENT="0810Software / FNew">
 <META NAME="copyright" LANG="en" CONTENT="Copyright (c) 2019 0810 Software">
     <title>FNew - Account:Marnix0810</title>
-<link href="https://fnew-social.net/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <style>
@@ -73,8 +73,8 @@ body {
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-<a href="https://fnew-social.net/">Back to FNew</a>
-<a href="https://fnew-social.net/links/">more...</a>
+<a href="/">Back to FNew</a>
+<a href="/links/">more...</a>
   </div>
 </div>
 <DIV id="titlebar" bgcolor="#a8ab0f"><font color="purple">
@@ -97,7 +97,7 @@ function closeNav() {
     <h3>User of FNew.</h3>
     <br></br>
     <b>Posts by Marnix0810</b><br>
-   <li><a href="https://fnew-social.net/posts/marnix0810-The_first_post_.html">"The first post!" (2019-8-02)</a></li>
+   <li><a href="/posts/marnix0810-The_first_post_.html">"The first post!" (2019-8-02)</a></li>
 
 
    <div id="bottombar_v203312">

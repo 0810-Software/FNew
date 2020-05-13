@@ -8,7 +8,7 @@
 <META NAME="author" LANG="en" CONTENT="Marnix 0810">
 <META NAME="copyright" LANG="en" CONTENT="Copyright (c) 2019 Marnix0810">
     <title>FNew - User list</title>
-<link href="https://fnew-social.net/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <style>
@@ -74,10 +74,10 @@ body {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
 <DIV id="titleoverlay" bgcolor="#a8ab0f"><font color="purple"><h1><font color="#fcba03">F</font><font color="pink">N</font><font color="lime">ew</font> <small>by Marnix 0810</small></h1></font></div>
-<div id="searchboxoverlay"><form action="https://www.google.com/search" method="get" ><input type="text" name="q" id="q" size="27" autofocus maxlength="255"><button class="submit" id="btn" type="submit"><img src="https://www.google.com/favicon.ico" alt="Google" width="16"> Search on FNew</button><input type="hidden" name="sitesearch" value="https://fnew-social.net/"></form></div><hr>
+<div id="searchboxoverlay"><form action="https://www.google.com/search" method="get" ><input type="text" name="q" id="q" size="27" autofocus maxlength="255"><button class="submit" id="btn" type="submit"><img src="https://www.google.com/favicon.ico" alt="Google" width="16"> Search on FNew</button><input type="hidden" name="sitesearch" value="/"></form></div><hr>
 <a href="#">link 1</a>
 <a href="#">link 2</a>
-<a href="https://fnew-social.net/links/">more...</a>
+<a href="/links/">more...</a>
   </div>
 </div>
 <DIV id="titlebar" bgcolor="#a8ab0f"><font color="purple">
@@ -101,9 +101,9 @@ function closeNav() {
 <p>The goal for now is 10 users. <b>(3/10)</b></p>
 <h2>List of registered user pages (Might not be up-to-date)</h2>
 <ul>
-<li><a href="https://fnew-social.net/account/marnix0810.html">Marnix0810</a> </li>
-<li><a href="https://fnew-social.net/account/EhvNr01.html">EhvNr01</a> </li>
-<li><a href="https://fnew-social.net/account/Viv.html">Viv</a></li>
+<li><a href="/account/marnix0810.html">Marnix0810</a> </li>
+<li><a href="/account/EhvNr01.html">EhvNr01</a> </li>
+<li><a href="/account/Viv.html">Viv</a></li>
 </ul>
 
    <div id="bottombar_v203312">

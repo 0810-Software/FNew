@@ -8,7 +8,7 @@
 <META NAME="author" LANG="en" CONTENT="0810Software / FNew">
 <META NAME="copyright" LANG="en" CONTENT="Copyright (c) 2019 0810 Software">
     <title>FNew - Download (desktop) apps</title>
-<link href="https://fnew-social.net/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <style>
@@ -73,8 +73,8 @@ body {
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-<a href="https://fnew-social.net/">Go back to FNew</a>
-<a href="https://fnew-social.net/links/">more...</a>
+<a href="/">Go back to FNew</a>
+<a href="/links/">more...</a>
   </div>
 </div>
     <DIV id="titlebar" bgcolor="#a8ab0f"><font color="purple">
@@ -99,7 +99,7 @@ function closeNav() {
 <h4>FNew Desktop</h4>
 <li><a href="https://electronjs.org/apps/fnew-desktop">Windows</a></li>
 <h4>FNew Mobile</h4>
-<li><a href="https://fnew-social.net/desktop-apps/FNew-Mobile_latest.apk">Android</a></li>
+<li><a href="/desktop-apps/FNew-Mobile_latest.apk">Android</a></li>
 
 
    <div id="bottombar_v203312">
