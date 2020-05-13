@@ -27,7 +27,7 @@
     <META NAME="keywords" LANG="en" CONTENT="FNew, Social Media, Social-Media, everyone-can-write-and-read, 0810 Software, Marnix 0810, Microblogging, Writing">
     <META NAME="author" LANG="en" CONTENT="0810 Software / FNew">
     <META NAME="copyright" LANG="en" CONTENT="Copyright (c) 2020 0810 Software">
-    <link href="https://fnew-social.net/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <style>
       body {
         font-family: 'Lato', sans-serif;
@@ -108,14 +108,14 @@ fclose($myfile);
             <button class="submit" id="btn" type="submit">
               <img src="https://www.google.com/favicon.ico" alt="Google" width="16"> Search on FNew
             </button>
-            <input type="hidden" name="sitesearch" value="https://fnew-social.net/">
+            <input type="hidden" name="sitesearch" value="/">
           </form>
         </div><hr>
         <!-- Start of custom menu links -->
         <p>Options:</p>
         <a href="#reply">Reply to this</a>
         <a href="/posts/">Back to all posts</a>
-        <a href="https://fnew-social.net/posts/"></a>
+        <a href="/posts/"></a>
         <!-- End of custom menu links -->
         <a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/footer_badge.png" alt="Member of The Internet Defense League"/></a>
           </div>
@@ -151,7 +151,7 @@ fclose($myfile);
           echo fgets($myfile);
           fclose($myfile);
           ?><br><hr><button>
-            by <a href="https://fnew-social.net/users.php?user=<?php
+            by <a href="/users.php?user=<?php
    $postid = $_GET["postid"];
    $postusernamefile = "postindex/" . $postid . "/username.txt";
    $myfile = fopen(($postusernamefile), "r") or die("error");
