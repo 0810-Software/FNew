@@ -193,6 +193,7 @@ fclose($myfile);
   </label><br>
   <input type="submit" id="submitresponse" value="Respond">
  </form>
+ <hr>
         <!-- End of body content -->
         <!-- Start of bottombar -->
         <div id="pd_rating_holder_8814144"></div>
