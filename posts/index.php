@@ -4,10 +4,10 @@
 FNew Standards ver. 20.4.30.2 apply to this file.
 Visit https://0810-software.github.io/FNew-Standards/20.4.30.2 for more information.
 
-Tagger: Marnix Bloeiman
+Tagger: @Marnix0810
 
 Contributors:
-- {(@user)names of everyone who contributed to this file}
+- @Marnix0810
 -
 Please list your name above when comitting to this file for the first time.
 -->
@@ -87,9 +87,8 @@ body {
 }
 </style>
 <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="38ae32fa-bcad-4acc-9ea9-ba1a1a03f4f6";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-<title>FNew - Links</title>
+<TITLE>FNew - Posts</TITLE>
 </HEAD>
-
 <BODY bgcolor="#EFE4B0" text="#144b64" alink="#6b9000" link="#851b2d" vlink="#851b2d">
 <CENTER>
 <div id="myNav" class="overlay">
@@ -100,6 +99,10 @@ body {
 <button class="submit" id="btn" type="submit">GO</button>
 <input type="hidden" name="sitesearch" value="https://fnew-social.net/"></form></div><hr>
 <!-- Start of custom menu links -->
+<a href="/posts/">refresh</a>
+<a href="/write/">write...</a>
+<a href="/">back to home</a>
+<a href="/links/">more...</a>
 <!-- End of custom menu links -->
   </div>
 </div>
@@ -120,26 +123,10 @@ function closeNav() {
 }
 </script>
 <!-- Start of body content -->
-<div id="searchbox"><form action="https://www.google.com/search" method="get" >
-<label for="q">Search on FNew with <img loading="lazy" src="https://www.google.com/favicon.ico" alt="Google" width="16"></label><input type="text" name="q" id="q" size="27" autofocus maxlength="255">
-<button class="submit" id="btn" type="submit">GO</button>
-<input type="hidden" name="sitesearch" value="https://fnew-social.net/"></form></div>
-<p>List of pages on FNew that might come in handy:</p>
-	</CENTER>
-<li><a href="/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Home</a></li>
-<li><a href="https://gitter.im/FNew_0810-Software/community"><img src="https://images.fnew-social.net/FNew-Gitter.png" height="16"> Go to the Gitter community of FNew</a></li>
-<li><a href="https://software0810.wordpress.com/privacy/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> The privacy documentation</a></li>
-<li><a href="/account/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Accounts</a></li>
-<li><a href="/write/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Write...</a></li>
-<li><a href="/write/signup/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Register</a></li>
-<li><a href="/posts/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> Read</a></li>
-<li><a href="/desktop-apps/"><img src="https://images.fnew-social.net/FNew-logo_w32h32.png" height="16"> The FNew (desktop) apps</a></li>
-<li><a href="https://software0810.wordpress.com/"><img src="https://software0810.files.wordpress.com/2019/11/cropped-0810software-2.png?w=32" height="16"> 0810 Software site</a></li>
-<li><a href="https://github.com/0810-Software/FNew"><img src="https://images.fnew-social.net/GitHub-Mark-32px.png" height="16"> FNew on Github</a></li>
-<li><a href="mailto:FNew@email.com"><img src="https://images.fnew-social.net/mail.jpg" height="16"> Mail me (Marnix 0810)</a></li>
-   <CENTER>
-	   <h3>Switch FNew Version:</h3>
-	   <p><a href="https://fnew-social.net/links/"><button>FNew Stable</button></a><a href="https://beta.fnew-social.net/links/"><button>FNew Beta</button></a><a href="https://alpha.fnew-social.net/links/"><button>FNew Alpha</button></a></p>
+<h2>Published posts</h2>
+	<a href="https://groups.google.com/forum/feed/fnew-posts/msgs/rss.xml?num=15" target="_blank">Get a notification over RSS when someone posts something</a>
+<hr>
+<li><a href="/posts/viewer.php?postid=1980215191">Marnix 0810:The first post!</a></li>
 <!-- End of body content -->
 <!-- Start of bottombar -->
 <div id="pd_rating_holder_8814144"></div>
@@ -178,4 +165,4 @@ function closeNav() {
                   <noscript><a href="https://poll.fm/10486316">naturalis lectio software: Which project would you EOL first?</a></noscript>
     </CENTER>
 </BODY>
-	</HTML>
+</HTML>

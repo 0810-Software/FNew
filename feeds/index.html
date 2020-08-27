@@ -8,7 +8,7 @@
 <META NAME="author" LANG="en" CONTENT="Marnix 0810">
 <META NAME="copyright" LANG="en" CONTENT="Copyright (c) 2020 0810 Software">
     <title>FNew - feeds</title>
-<link href="https://fnew-social.net/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <style>
@@ -74,9 +74,9 @@ body {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
 <DIV id="titleoverlay" bgcolor="#a8ab0f"><font color="purple"><h1><font color="#fcba03">F</font><font color="pink">N</font><font color="lime">ew</font> <small>by 0810 Software</small></h1></font></div>
-<div id="searchboxoverlay"><form action="https://www.google.com/search" method="get" ><input type="text" name="q" id="q" size="27" autofocus maxlength="255"><button class="submit" id="btn" type="submit"><img src="https://www.google.com/favicon.ico" alt="Google" width="16"> Search on FNew</button><input type="hidden" name="sitesearch" value="https://fnew-social.net/"></form></div><hr>
-<a href="https://fnew-social.net/">home</a>
-<a href="https://fnew-social.net/links/">links</a>
+<div id="searchboxoverlay"><form action="https://www.google.com/search" method="get" ><input type="text" name="q" id="q" size="27" autofocus maxlength="255"><button class="submit" id="btn" type="submit"><img src="https://www.google.com/favicon.ico" alt="Google" width="16"> Search on FNew</button><input type="hidden" name="sitesearch" value="/"></form></div><hr>
+<a href="/">home</a>
+<a href="/links/">links</a>
   </div>
 </div>
 <DIV id="titlebar" bgcolor="#a8ab0f"><font color="purple">
